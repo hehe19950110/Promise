@@ -17,6 +17,7 @@ API（应用程序接口）：是基于编程语言构建的结构，使开发�
 • Promise.resolve  （方法返回一个以给定值解析后的Promise 对象。如果这个值是一个 promise ，那么将返回这个 promise ；如果这个值是thenable（即带有"then" 方法），返回的promise会“跟随”这个thenable的对象，采用它的最终状态；否则返回的promise将以此值完成。此函数将类promise对象的多层嵌套展平。）
 
 3）对象属性：
+
 • Promise.prototype.then  （最多需要有两个参数：Promise 的成功和失败情况的回调函数。）
 
 • Promise.prototype.finally（不管是对是错，都会执行指定的回调函数）
@@ -24,6 +25,7 @@ API（应用程序接口）：是基于编程语言构建的结构，使开发�
 • Promise.prototype.catch  （可以用于promise组合中的错误处理。）
 
 4）对象内部属性：
+
 • state = pending/fullfilled/rejected
 
 Promise/A+规范：
